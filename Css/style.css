@@ -1,0 +1,154 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    box-sizing: border-box;
+   
+
+}
+
+body {
+
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-bottom: 10px;
+    background-image: url("image/Fondo-3.png");
+}
+
+.pr-contenedor {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+      margin: auto;
+    justify-content: center;
+    align-items: center;     
+    width: 82%;
+    height: 1100px;
+    background-color: white
+
+}
+.label-productos {
+    margin-top: 2%;
+    font-size: 30px;
+    width: 82%;
+    text-align: center;
+    background-color:  #22a6d3c9;
+    color: white;      
+    justify-content: center;
+
+}
+
+
+.sn-top {
+    display: flex;
+    top: 0%;
+    background-color: #22a6d3c9;
+    justify-content: center;
+    font-style: italic;
+    color: white;
+}
+
+
+
+.caja-productos {
+
+    background-color: rgb(253, 252, 250);
+    width: 400px;
+    height: 510px;
+    color: rgba(10, 10, 10, 0.262);
+    text-align: center;
+    border-radius: 5px;
+    overflow: hidden;
+    color: black;
+    box-shadow: 0 20px 15px 0 rgb(153, 156, 154);
+    display: flex;
+    flex-direction: column;
+    
+    }
+
+
+
+.juegos {
+
+    font-size: 12px;
+    padding: 0 5px;
+
+}
+
+.modo-juego {
+    font-size: 15px;
+    font-style: italic;
+    color: #22a6d3c9;
+    padding-top: 10px;
+
+}
+
+
+.btn-chance {
+    border: none;
+    background-color: #22a6d3c9;
+    color: rgb(238, 238, 246);
+    font-family: Arial;
+    font-size: 15px;
+    width: 100%;
+    height: 61px;
+    
+}
+.cj-btn{
+    
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.btn-qn:hover {
+    background-color: rgb(18, 112, 128);
+    color: white;
+}
+
+.btn-chance:hover {
+    background-color: rgb(18, 112, 128);
+    color: white;
+}
+
+.btn-Mchance:hover {
+    background-color: rgb(18, 112, 128);
+    color: white;
+
+}
+
+.btn-lotto:hover {
+    background-color: rgb(18, 112, 128);
+    color: white;
+}
+
+.btn-ruleta:hover {
+    background-color: rgb(18, 112, 128);
+    color: white;
+}
+
+.btn-toca3:hover {
+    background-color: rgb(18, 112, 128);
+    color: white;
+
+}
+
+ /* ---- ----- ----- Media Queries productos----- ----- ----- */
+ @media screen and (max-width: 480px) {
+       .pr-contenedor{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+       } 
+ }
+
+  
+
+
